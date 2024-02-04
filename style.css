@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    height: 100px;
+    width: 1488px;
+    background-color: lightseagreen;
+  }
+  
+  .contain {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #logo {
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+  }
+  
+  #logoname {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: wheat;
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .navbar {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .opt {
+    color: wheat;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  
+  .home,
+  .song,
+  .about,
+  .contact { 
+    position: absolute;
+    top: 30px;
+    color: wheat; 
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .home {
+    right: 500px;
+  }
+  
+  .song {
+    right: 400px;
+  }
+  
+  .about {
+    right: 270px;
+  }
+  
+  .contact {
+    right: 130px;
+  }
+  
+  #logoname:hover,
+  .home:hover,
+  .song:hover,
+  .about:hover,
+  .contact:hover { 
+    color: brown;
+  }
+
+  .main1{
+       background: rgba(97, 222, 244, 0.8) url('image1.jpg');
+       background-size: cover;
+       height: 607.6px;
+       width: 1488px;
+       position: relative;
+       top: 0px;
+       background-blend-mode: darken;
+       animation-name: picchange;
+       animation-duration: 5s;
+       animation-delay: 7s;
+       animation-timing-function: linear step-start;
+       animation-iteration-count: infinite;
+
+  }
+  @keyframes picchange {
+    0% {background-image: url('image1.jpg');
+      background-size: cover;}
+    25% {background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_626660256_2000108620009280158_388846.jpg');
+      background-size: cover;}
+    50%{
+      background-image: url('https://live-production.wcms.abc-cdn.net.au/a362273509f7eccdcf362bb73b3b006d?impolicy=wcms_crop_resize&cropH=788&cropW=1400&xPos=0&yPos=0&width=862&height=485');
+      background-size: cover;}
+    75%{background-image: url('https://cdn.vox-cdn.com/thumbor/8fHlyH3tqfMxAHz0hXowSXaZuis=/2x0:996x746/1200x800/filters:focal(2x0:996x746)/cdn.vox-cdn.com/uploads/chorus_image/image/48729983/shutterstock_93888712.0.0.jpg');
+      background-size: cover;}
+    100%{background-image: url('https://img.freepik.com/premium-photo/poster-music-summer-festival-generative-ai_866475-272.jpg');
+      background-size: cover;}
+  }
+  .inner{
+    background: rgba(4, 71, 82, 0.8)  url('https://www.itl.cat/pngfile/big/222-2227735_musical-notes-abstract.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    height: 450px;
+    border-radius: 20px;
+    width: 1000px;
+    }
+    .songsss
+    {
+      cursor: pointer;
+      position: relative;
+      font-size: 15px;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 10px;
+      padding: 5px;
+      height: 30px;
+      border-radius: 20px;
+      left: 100px;
+      background-color: deepskyblue;
+      color: black;
+      width: 400px;
+    }
+    .s1{
+      top: 40px;
+    }
+    .s2{
+      top: 50px;
+    }
+    .s3{
+      top: 60px;
+    }
+    .s4{
+      top: 70px;
+    }
+    .s5{
+      top: 80px;
+    }
+    .s6{
+      top: 90px;
+    }
+    .s7{
+      top: 100px;
+    }
+
+  .last
+  {
+    color: wheat;
+    position: absolute;
+    bottom: 71px;
+    height: 30px;
+    width: 1488px;
+    background-color: lightseagreen;
+  }
+
